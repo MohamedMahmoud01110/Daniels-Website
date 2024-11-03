@@ -128,8 +128,9 @@ header{
     overflow: hidden;
     min-height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),url(../images/bg.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-size:cover;
+    background-position: 0px 0px;
+    background-attachment:scroll;
 }
 
 .home-content .caption>span{
