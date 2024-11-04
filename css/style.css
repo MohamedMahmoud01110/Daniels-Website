@@ -919,8 +919,14 @@ footer p{
     }
     .navbar-brand {
         color:#000;
-
     }
+    .home-content .caption>span{
+        font-weight: 600;
+        font-size: 40px;
+    }
+    .home-content .caption h1{
+    font-size: 40px;
+        }
 }
 
 @media   all and (min-width:576px) and (max-width:767px){
@@ -983,6 +989,9 @@ footer p{
     .cl3{
         margin-right: 0px;
     }
+    .home-content .caption h1{
+        font-size: 50px;
+            }
 }
 
 @media  all and (min-width:768px) and (max-width:991px){
