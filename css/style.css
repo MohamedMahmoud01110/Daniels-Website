@@ -328,6 +328,7 @@ font-size: 30px;
     display: flex;
     justify-content: center; 
     text-align: center; 
+
 }
 .portfolio-title h2 {
     margin-bottom: 40px;
@@ -644,21 +645,6 @@ font-size: 30px;
     transform: scale(1.2);
 }
 
-
-
-
-
-
-
-
-/* .team-content .card .card-body:hover{
-    background-color: yellow;
-
-}
-.team-content .card .card-body:hover {
-    transform: scale(2);
-} */
-
 /* &end team section */
 
 /**start contact section **/
@@ -928,7 +914,42 @@ footer p{
     font-size: 40px;
         }
 }
-
+@media   all and (max-width:499px){
+.portfolio .portfolio-content .nav{
+            margin-right: -64px;
+        }
+        #portfolio .portfolio-content .nav button{
+            padding-left: 0px;
+        }
+        #portfolio .portfolio-content .nav .nav-item.gb{
+            margin-left: -15px
+        }
+        #portfolio .portfolio-content .nav .nav-item.db{
+            margin-left: -15px
+        }
+        #portfolio .portfolio-content .nav .nav-item.bb{
+            margin-left: -15px
+        }
+        #portfolio .portfolio-content .nav .nav-item.ab{
+            margin-left: -30px
+        }
+        .portfolio .portfolio-content .nav .nav-link.active::after{ 
+            left:0px;
+        }
+        .home-content .caption h1{
+            font-size: 30px;
+        }
+        .team-title h2 {
+            font-size: 35px;
+        
+        }
+        .contact-title h2{
+            font-size: 35px;
+        }
+        .team-content .card .overlay-white .social-links {
+            width: 95%;
+        }
+}
 @media   all and (min-width:576px) and (max-width:767px){
     #about {
         width: 100%;
